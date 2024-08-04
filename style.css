@@ -1,0 +1,78 @@
+h1 {color: red;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+h2 { color: blue;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h3 { color: red;
+text-align: center;
+
+
+
+}
+
+
+
+.article { 
+
+
+}
+
+p {text-align: justify;
+    display: inline-block;
+    width: 60%;
+    height: 100px;
+    
+}
+
+
+header {
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    background-image: url(morning-soccer-game-stockcake.jpg);
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.5;
+   
+   
+}
+
+
+
+.right {float:right
+
+
+}
+.left {float: left;}
+
+#submit { background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin-left: 30%;
+}
+
+form {
+
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #b95d52;
+    border-style: double;
+width: 50%;
+}
+
