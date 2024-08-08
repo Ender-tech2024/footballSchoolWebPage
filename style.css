@@ -73,6 +73,17 @@ form {
     border-width: 2px;
     border-color: #b95d52;
     border-style: double;
-width: 50%;
+    width: 45%;
 }
 
+.calculateHeight { position: relative;
+                    margin-top: 50px;
+                    width: 250px;
+                    border-radius: 3px;
+                    border-width: 2px;
+                    border-color: #b95d52;
+                    border-style: double;
+                    display: inline-block;
+                    padding-left: 20px;
+                    margin-left: 15px;
+}
