@@ -93,12 +93,49 @@
 
 <div class="calculateHeight">
 
-<h5 style="color: blue;">Calculate Your Child's adulthood Height</h5>
+<h5 style="color: blue;">CALCULATE YOUR CHILD'S ADULTHOOD HEIGHT</h5>
+
+    <label>What is father's height in CM?
+    <input id="fatherHeight" type="text" required></label>
+    <br><br>
+    <label>What is mother's height in CM?
+    <input id="motherHeight" type="text" required></label>
+    <br><br>
+
+    <input type="button" id="Calculate" value="calculate">
+
+<div id="result"></div>
+
+<script>
+
+
+
+
+let fatherHeight=document.getElementById("fatherHeight");
+
+let motherHeight=document.getElementById("motherHeight");
+
+let calculateBtn=document.getElementById("Calculate");
+
+let result=document.getElementById("result");
+
+
+
+calculateBtn.onclick=function() {
+
+let sum = ((Number(fatherHeight.value)+Number(motherHeight.value)+13)/2);
+
+result.innerHTML=sum; 
+
+}
 
 
 
 
 
+
+
+</script>
 
 
 

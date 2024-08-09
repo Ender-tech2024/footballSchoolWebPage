@@ -87,3 +87,11 @@ form {
                     padding-left: 20px;
                     margin-left: 15px;
 }
+
+#result {
+
+    display: inline-block;
+    padding-left: 40px;
+    color: red;
+    font-weight: bold;
+}
