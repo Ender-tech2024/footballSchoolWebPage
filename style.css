@@ -1,4 +1,4 @@
-h1 {color: red;
+h1 {color:red;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -20,12 +20,13 @@ text-align: center;
 
 }
 
-
-
-.article { 
+body{ margin: 0px;
 
 
 }
+
+main{margin: 20px;}
+
 
 p {text-align: justify;
     display: inline-block;
@@ -38,16 +39,14 @@ p {text-align: justify;
 header {
     background-size: 100% 350px;
     background-repeat: no-repeat;
-    background-image: url(morning-soccer-game-stockcake.jpg);
     height: 200px;
     width: 100%;
     display: inline-block;
     text-align: center;
-    opacity: 0.5;
+    opacity: 1;
    
    
 }
-
 
 
 .right {float:right
@@ -95,3 +94,43 @@ form {
     color: red;
     font-weight: bold;
 }
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #14f541;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+
+  .navbar a{  color: black;
+              text-decoration: none;
+              padding: 100px;
+              padding-left: 150px;
+              padding-right: 150px;
+              display: block;
+              text-align: center;
+              font-weight: bolder;
+              font-size: large;
+
+
+ }
+
+ .navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    
+
+ }
+
+ .navbar li{ float: left;
+
+
+
+ }
+
