@@ -134,3 +134,8 @@ form {
 
  }
 
+.counter{
+
+    float: right;
+    margin-right: 100px;
+}
